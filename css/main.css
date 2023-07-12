@@ -141,6 +141,7 @@ header .nav-header > li > a:hover{
     transition: 0.3s;
     display: flex;
     opacity: 0%;
+    z-index: -1;
 }
 .mega-menu .image img{
     max-width: 100%;
@@ -168,6 +169,7 @@ header .nav-header > li > a:hover{
     width: 100%;
     flex-direction: column;
     gap: 0;
+    
     }
 
     }
@@ -176,6 +178,7 @@ header .nav-header > li > a:hover{
 }
 header .nav-header > li:hover .mega-menu{
     opacity: 100%;
+    z-index: 100;
 }
 
 
